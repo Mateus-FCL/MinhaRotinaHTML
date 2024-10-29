@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleCadastro.css">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="cadastro">
+            <form action="#">
+                <div class="cadastroTop">
+                    <div class="titulo">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+                <div class="grupo">
+                    <div class="box">
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="box">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="box">
+                        <label for="dataDeNascimento">Data de nascimento</label>
+                        <input id="dataDeNascimento" type="date" name="dataDeNascimento" placeholder="Data em que voce nasceu" required>
+                    </div>
+                    <div class="box">
+                        <label for="sexo">Sexo</label>
+                        <select name="sexo" id="sexo">
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="opcao1">Masculino</option>
+                             <option value="opcao2">Feminino</option>
+                             <option value="opcao4">lgbtqiapn+</option>
+                        </select>
+                    </div>
+                    <div class="box">
+                        <label for="estado">Estado</label>
+                        <input id="estado" type="text" name="estado" placeholder="Digite seu estado" required>
+                    </div>
+                </div>
+                <div class="botao">
+                    <button><a href="../index.html">Finalizar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
