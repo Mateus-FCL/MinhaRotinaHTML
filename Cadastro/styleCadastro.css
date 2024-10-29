@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #4e4d4a;
 }
 
 .cadastro {
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
-    background-color: #ffffff;
+    background-color: #353432;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
 }
@@ -32,7 +32,7 @@ body {
 
 .cadastroTop h1 {
     font-size: 1.8rem;
-    color: #333;
+    color: #ffffff;
     font-weight: 700;
     position: relative;
 }
@@ -63,7 +63,7 @@ body {
 .box input, .box select {
     margin-top: 0.5rem;
     padding: 0.8rem;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
 }
@@ -75,7 +75,7 @@ body {
 .box label {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #555;
+    color: #ffffff;
 }
 
 .box input::placeholder {

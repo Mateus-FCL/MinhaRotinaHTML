@@ -1,0 +1,65 @@
+/* Define a cor de fundo e estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4e4d4a;
+    color: #ffffff;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Estiliza o título principal */
+h1 {
+    font-size: 2.5em;
+    color: #d8d8d8;
+    margin-top: 20px;
+}
+
+/* Estiliza o link de contato */
+a {
+    text-decoration: none;
+    color: #d4d4d4;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: #5f5f5f;
+    text-decoration: underline;
+}
+
+/* Estiliza a imagem de perfil */
+img {
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Define o estilo do parágrafo */
+p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+/* Estiliza a citação */
+p i {
+    font-size: 1.2em;
+    color: #cacaca;
+    display: block;
+    margin-top: 15px;
+}
+
+/* Estiliza o áudio e o vídeo */
+audio, video {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 640px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
