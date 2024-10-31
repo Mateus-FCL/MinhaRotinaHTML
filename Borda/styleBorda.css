@@ -1,0 +1,36 @@
+body{
+    background-image: url(../imagens/imagem\ para\ html.jpg);
+    margin: 0;
+    background-size: cover;
+    font-family: "Kanit", sans-serif;
+}
+
+.texto{
+    border: 5px solid green;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    width: 500px;
+    height: 90px;
+    margin: 270px auto;
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4e4d4a;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #494845;
+}
