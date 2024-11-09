@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    height: 350px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff6600;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff8800;
+}
+
+.attempts {
+    margin-top: 20px;
+}
+
+.attempts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.attempts li {
+    background-color: #555;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botao{
+    display: block;
+    padding: 10px 20px;
+    background-color: #4e4d4a;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #494845;
+}
